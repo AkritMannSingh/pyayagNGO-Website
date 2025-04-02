@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 770px) {
+  header {
+    height: auto;
+    padding: 1rem;
+    background-position: top;
+    width: 780px;
+    text-align: left !important;
+    justify-content: center !important;
+  }
+
+  .home a {
+    font-size: 1.2rem;
+    text-align: left !important;
+  }
+  .logo img {
+    width: 100px !important;
+    height: 90px !important;
+    margin-top: 5px !important;
+  }
+  .list ul {
+    flex-direction: row;
+    display: flex;
+    gap: 15px;
+    margin-top: 50px !important;
+    padding: 0;
+    text-align: center;
+  }
+  .list ul li {
+    display: flex;
+  }
+  .list ul li img {
+    width: 20px !important;
+  }
+  nav{
+    width: 1500px !important;
+    flex-wrap: wrap !important;
+  }
+  footer{
+    width: 1430px;
+  }
+}
+@media (max-width: 480px) {
+  header {
+    width: 1430px;
+    justify-content: left;
+    align-items: start;
+    text-align: left;
+  }
+  .home {
+    margin-top: 15px !important;
+  }
+  .sent{
+    margin-left: 10px;
+  }
+  .card{
+    display: none;
+  }
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-wrap: wrap;
+  border: 2px solid none;
+  height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/Images/Slide/NGO 10.png");
+  background-position: center;
+  background-size: cover;
+}
+.three {
+  border: none;
+}
+header .logo img {
+  margin-top: 3px;
+  margin-right: 8px;
+  width: 7vw;
+  border: 2px solid none;
+  height: auto;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.home {
+  margin-top: 10px;
+  justify-content: left;
+}
+.home a {
+  font-family: Merriweather, Georgia, serif;
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: white;
+  flex-wrap: nowrap;
+  text-decoration: none;
+}
+.home a:hover {
+  color: #ff8600;
+}
+.swami a {
+  color: #ff8600;
+  text-decoration: none;
+}
+
+.list {
+  display: flex;
+}
+.list ul {
+  display: flex;
+  gap: 30px;
+  margin: 0 100px 0;
+  margin-top: 30px;
+}
+.list ul li {
+  list-style: none;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+}
+.list ul li a {
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.list ul li a:hover {
+  color: #ff8600;
+}
+.list ul li svg:hover{
+  color: #ff8600;
+}
+nav {
+  justify-content: center;
+  /* align-items: center; */
+  display: flex;
+  text-align: left;
+}
+nav .sent {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: none;
+  width: 70%;
+}
+nav .sent h1 {
+  font-size: 2.5rem;
+  color: #ff8600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 1.5em;
+  justify-content: center;
+  align-items: center;
+}
+nav .sent p {
+  color: black;
+  font-size: 1em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 2em;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+nav .sent .insent {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-wrap: wrap;
+}
+nav .sent .insent p ul {
+  justify-content: center;
+  align-items: center;
+}
+nav .sent .insent p ul li {
+  list-style: circle;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1em;
+}
+nav .sent .insent ul li strong {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-right: 0.5em;
+}
+nav .sent .insent h4 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.3em;
+  margin-top: 1em;
+  color: #ff8600;
+}
+nav .card {
+  width: 15vw;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: white;
+  margin-left: 4em;
+  margin-top: 10em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 1em;
+  font-family: Aptos Display;
+  text-align: center;
+  text-wrap: wrap;
+  border-bottom-color: #ff8600;
+  border-bottom-width: 0.3vw;
+  box-shadow: 0 10px 10px rgb(94, 93, 93);
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+nav .card:hover {
+  transform: scale(1.03);
+}
+nav .card p {
+  margin-top: 0.5em;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-style: italic;
+  justify-content: center;
+  align-items: center;
+}
+nav .card p:last-child {
+  text-align: right;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+footer {
+  background-color: #ff8600;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  margin-top: 10em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

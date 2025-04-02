@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/Images/Slide/300-PS1071169.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  justify-content: center;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10em;
+  font-family: "Arial", sans-serif;
+  width: auto;
+}
+
+.registration-box {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.form-title {
+  color: #ff8600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.registration-form {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+label {
+  font-weight: 600;
+  color: #ffb969;
+}
+
+input,
+select,
+textarea {
+  padding: 0.8rem;
+  border: 1px solid #ffb969;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid #ff8600;
+  border-color: transparent;
+}
+
+.checkbox-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.submit-button {
+  background-color: #ff8600;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 1rem;
+}
+
+.submit-button:hover {
+  background-color: #ffb969;
+}
+
+footer {
+  background-color: #ff8600;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 3rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+  .container{
+    width: 1000px !important;
+    margin-top: 5em;
+  }
+  footer{
+    width: ;
+  }
+}

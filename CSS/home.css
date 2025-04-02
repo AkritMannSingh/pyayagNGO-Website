@@ -1,0 +1,1076 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 770px) {
+  header {
+    height: auto;
+    padding: 1rem;
+    background-position: top;
+    width: 500px;
+    justify-content: left !important;
+  }
+
+  .home a {
+    font-size: 1.2rem;
+    text-align: left !important;
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  .logo img{
+    width: 100px !important;
+    height: 90px !important;
+    margin-top: 5px !important;
+  }
+  .list ul {
+    display: flex;
+    gap: 5px;
+    margin: 20px 0;
+    margin-top: 50px !important;
+    padding: 0;
+    text-align: center;
+  }
+  .list ul li{
+    display: none;
+  }
+  .list span{
+    display: list-item !important;
+  }
+  main figure {
+    flex-direction: column;
+  }
+
+  article {
+    flex-direction: column;
+  }
+
+  article .para {
+    width: 100% !important;
+    margin: 0 auto;
+  }
+  .para h1{
+    font-size: 5rem !important;
+    width: 1000px !important;
+  }
+  .para p{
+    font-size: 2rem !important;
+    width: 1000px !important;
+  }
+  article aside {
+    display: none !important;
+  }
+  .kendra h1{
+    font-size: 5rem !important;
+    width: 1000px !important;
+    margin-left: 30px;
+  }
+  .kendra p{
+    font-size: 45px !important;
+    width: 1000px !important;
+    margin-left: 30px;
+  }
+  .art2 .allcard {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .art2 .allcard .card2,
+  .art2 .allcard .card3,
+  .art2 .allcard .card4{
+    width: 800px !important;
+    height: 1100px;
+    margin-top: 100px;
+    margin-left: 1100px;
+    padding: 15px;
+  }
+  .allcard .card3{
+    margin-left: 1100px !important;
+  }
+  .allcard .card4{
+    margin-left: 1100px !important;
+    margin-top: 100px !important;
+  }
+  .allcard h1{
+    font-size: 80px !important;
+    margin-top: 70px;
+  }
+  .allcard p{
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    padding-top: 30px !important;
+    font-size: 50px !important;
+  }
+  .art2{
+    justify-content: center !important;
+    align-items: center !important;
+    justify-items: center !important;
+    text-align: center !important;
+  } 
+  .art2 .heading h1 {
+    font-size: 4rem !important;
+    text-wrap: nowrap !important;
+    margin-left: 200px !important;
+  }
+  .art2 .heading p{
+    font-size: 40px !important;
+    margin-left: 200px !important;
+  }
+  .sec2 .he2 h1 {
+    font-size: 3rem !important;
+    width: 800px !important;
+  }
+  .he2{
+    margin-left: 70px !important;
+  }
+  .he2 h4{
+    font-size: 30px !important;
+  }
+  .he2 button{
+    width: 200px !important;
+    height: 50px !important;
+  }
+  .sec2 .he2 p{
+    font-size: 50px !important;
+    width: 1300px !important;
+  }
+  .art2 .allcard img {
+    width: 100% !important;
+    height: 500px !important;
+  }
+  footer{
+    width: 800px !important;
+  }
+  footer ul li{
+    display: none !important;
+  }
+  footer .form1 {
+    flex-direction: column;
+  }
+  footer .stay h1{
+    font-size: 50px !important;
+    margin-left: 0 !important;
+  }
+  footer .stay p{
+    margin-left: 40px !important;
+    font-size: 30px !important;
+  }
+  footer .forms form .form1 input,
+  footer .forms form .form1 select,
+  footer .forms form .form1 textarea {
+    width: 300px !important;
+    margin-left: 40px !important;
+  }
+
+  footer .sumit button {
+    width: 130px!important;
+    margin-left: 40px !important;
+  }
+  .foo2{
+    width: 1440px !important;
+    flex-wrap: nowrap !important;
+    justify-content: space-around !important;
+  }
+  .foo2 .home1 {
+    flex-direction: row;
+  }
+  .home1 img{
+    width: 100px !important;
+    height: 90px !important;
+    margin-top: 5px !important;
+  }
+  .home1 .home a{
+    font-size: 50px !important;
+    text-align: left !important;
+  }
+  .foo2 .list ul li{
+    display: list-item !important;
+  }
+  .foo2 .allicon .icon img {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .foo2 .address p {
+    margin-left: 10px;
+    font-size: 0.9rem;
+  }
+  article aside{
+    display: none !important;
+  }
+  article .para a button{
+    display: grid !important;
+    padding: 0.7rem;
+    margin-top: 1em;
+    color: white;
+    font-size: 1.2em;
+    background-color: #ff8600;
+    border: 2px solid #ff8600;
+    border-radius: 1.3em;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  article .para a{
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 480px) {
+  header{
+    width: 1380px;
+    justify-content: left;
+    align-items: start;
+    text-align: left;
+  }
+  .list span{
+    width: 50px !important;
+    margin-top: 50px !important;
+    margin-left: 500px;
+  }
+  .list img:hover{
+    border: 5px solid red;
+  }
+  nav .youth {
+    font-size: 70px !important;
+    text-align: center;
+    margin-left: 300px;
+  }
+  nav .button {
+    margin-top: 30px;
+    margin-left: 250px;
+  }
+  .home{
+    margin-top: 15px !important;
+  }
+  nav .button button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+  .sumit button{
+    margin-left: 6.5em !important;
+   }
+  .art1 figure .img2{
+    display: none !important;
+   }
+  figure img{
+    width: 2480px !important;
+    height: 1000px !important;
+  }
+
+  .sec2 .he2 {
+    margin-left: 10px;
+  }
+  footer .stay h1 {
+    font-size: 1.8rem;
+  }
+  footer .label{
+    display: none !important;
+  }
+}
+@media only screen and (orientation: landscape) and (max-width: 992px) {
+  header {
+    height: 100vh;
+  }
+
+  nav .button {
+    margin-top: 10vh;
+  }
+  footer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+  }
+}
+.hamburger-menu {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 100;
+  display: none;
+}
+
+.line {
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+
+.sidebar {
+  position: fixed;
+  left: -250px;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background: #f4f4f4;
+  transition: 0.3s;
+  padding: 20px;
+}
+
+.sidebar nav ul {
+  list-style: none;
+}
+
+.sidebar nav ul li {
+  padding: 15px 0;
+}
+
+.sidebar nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+.sidebar nav ul li a:hover {
+  color: #666;
+}
+
+#menu-toggle:checked ~ .sidebar {
+  left: 0;
+}
+
+#menu-toggle:checked ~ .hamburger-menu {
+  right: 260px;
+}
+
+@media (max-width: 768px) {
+  .hamburger-menu {
+      display: block;
+  }
+}
+
+@media (min-width: 769px) {
+  .sidebar {
+      left: 0;
+  }
+}
+header {
+  display: flex;
+  border: 2px solid black;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/Images/Slide/300-PS1071169.jpg");
+  background-position: center;
+  background-size: cover;
+  justify-content: space-around;
+  text-align: justify;
+  flex-wrap: wrap;
+  height: 100vh;
+  z-index: 30;
+}
+.three {
+  border: none;
+}
+header .logo img {
+  margin-top: 7px;
+  width: 7vw;
+  border: 2px solid none;
+  height: 13vh;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.home {
+  margin-top: 15px;
+  justify-content: left;
+}
+.home a {
+  font-family: Ink Free;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.7rem;
+  color: white;
+  flex-wrap: nowrap;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+.home a:hover {
+  color: #ff8600;
+}
+.swami a {
+  color: #ff8600;
+  text-decoration: none;
+}
+
+.list {
+  display: flex;
+}
+.list ul {
+  display: flex;
+  gap: 30px;
+  margin: 0 100px 0;
+  margin-top: 40px;
+}
+.list ul li {
+  list-style: none;
+  color: white;
+  font-family: Bookshelf Symbol 7;
+  font-size: 18px;
+}
+.list ul li a {
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.list ul li a:hover {
+  color: #ff8600;
+}
+.list ul li a svg:hover{
+  color: #ff8600;
+}
+.list span{
+  display: none;
+}
+nav{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+nav .youth {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 5em;
+  text-align: center;
+}
+nav .youth p {
+  font-weight: bold;
+  color: #ff8600;
+  font-family: Bookshelf Symbol 7;
+  margin-top: 0.5em;
+}
+nav .youth p a {
+  text-decoration: none;
+  color: #ff8600;
+}
+nav .button {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 8em;
+}
+nav .button button {
+  outline: none;
+  border: 2px solid orange;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 1em;
+  font-weight: 700;
+  background-color: orange;
+  cursor: pointer;
+}
+nav .button button:active {
+  background-color: #ffb969;
+  border: 2px solid #ffb969;
+}
+nav .button a button {
+  text-decoration: none;
+  color: white;
+}
+main {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main .art1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main .art1 .kendra {
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-self: center;
+  width: 97%;
+  margin-top: 3em;
+}
+main .art1 .kendra h1 {
+  font-family: Bookshelf Symbol 7;
+  color: #ff8600;
+  font-size: 2em;
+}
+
+main .art1 .kendra p {
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3em;
+  border: 3px solid white;
+  margin-top: 1em;
+}
+main figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+  border: 1px solid rgb(188, 188, 188);
+  width: 100%;
+  align-items: center;
+  text-align: justify;
+}
+
+main figure img:first-child {
+  height: 70vh;
+  margin: 0;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+main figure img:first-child:hover {
+  transform: scale(1.03);
+}
+main figure:hover {
+  background-color: #ffeedb;
+  overflow: hidden;
+}
+main figure .img2 {
+  border: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+main figure .img2 img {
+  transition: transform 0.3s;
+}
+
+main figure .img2 img:nth-child(1) {
+  width: 30vw;
+  height: 45vh;
+  margin-left: 1em;
+}
+main figure .img2 :nth-child(2) {
+  width: 30vw;
+  height: 45vh;
+  padding-left: 1em;
+  padding-bottom: 0.7em;
+}
+main figure .img2:hover {
+  cursor: pointer;
+}
+main figure .img2 img:hover {
+  transform: scale(1.08);
+}
+article {
+  display: flex;
+  margin-top: 2px;
+  flex-wrap: wrap;
+}
+article .para {
+  margin-left: 3em;
+  width: 70vw;
+}
+article .para h1 {
+  font-family: Castellar;
+  font-weight: bolder;
+  font-size: 1.6em;
+  text-decoration: transparent;
+  margin-top: 30px;
+  color: #ff8600;
+}
+
+article .para p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+article .para h3 {
+  margin-top: 1em;
+  color: orange;
+}
+article .para a button{
+  display: none;
+}
+article aside {
+  height: 50vh;
+  width: 15vw;
+  font-family: Bookshelf Symbol 7;
+  color: #ff8600;
+  margin-left: 3em;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1.5em;
+}
+article aside p{
+  margin-top: 1.3em;
+  cursor: pointer;
+  color: #000;
+  text-align: left;
+  flex-wrap: wrap;
+  cursor: text;
+}
+article aside a button {
+  cursor: pointer;
+  padding: 0.5rem;
+  width: auto;
+  border: 1px solid #ff8600;
+  margin-top: 0.7em;
+  margin-left: 2.5em;
+  background-color: #ff8600;
+  border-radius: 0.4em;
+}
+article aside a button {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  font-weight: 500;
+}
+article aside button:active {
+  background-color: #ffb969;
+  border: 1px solid #ffb969;
+}
+.art2 {
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+.art2 .heading {
+  display: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  border: none;
+  margin-left: 3em;
+}
+.art2 .heading h1 {
+  font-family: Bookshelf Symbol 7;
+  color: #ff8600;
+  font-size: 2em;
+}
+.art2 .heading p {
+  font-family: "Palanquin", sans-serif;
+  font-size: 1.3em;
+  margin-top: 1em;
+}
+.art2 .allcard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+  text-wrap: wrap;
+  height: cover;
+  text-align: center;
+  justify-items: center;
+}
+.art2 .allcard .card2{
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 27vw;
+  height: cover;
+  background-color: rgb(239, 239, 239);
+  box-shadow: 5px 5px 5px #c5c5c5;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  text-wrap: wrap;
+  border-radius: 5%;
+  background-size: cover;
+  background-position: center;
+}
+.art2 .allcard a{
+  text-decoration: none;
+  color: #ff8600;
+  text-align: center;
+}
+.art2 .allcard .card2 img {
+  width: 26.7vw;
+  height: 40vh;
+  border: 2px solid #e5e4e4;
+  border-radius: 5%;
+}
+.art2 .allcard .card2 h1 {
+  font-family: Bookshelf Symbol 7;
+  font-size: 1.5em;
+  text-wrap: wrap;
+}
+.art2 .allcard .card2 h1 a {
+  text-decoration: none;
+  color: #ff8600;
+}
+.art2 .allcard .card2 p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.06em;
+  padding: 3rem;
+  padding-top: 0.3em;
+  border: 2px solid none;
+  width: cover;
+  color: black;
+  text-wrap: wrap;
+}
+.art2 .allcard .card2:hover {
+  transform: translateY(-9px);
+}
+.art2 .allcard .card3 {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 27vw;
+  height: cover;
+  background-color: rgb(239, 239, 239);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-left: 1em;
+  text-wrap: wrap;
+  border-radius: 5%;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 5px 5px 5px #c5c5c5;
+}
+.art2 .allcard .card3 img {
+  width: 26.7vw;
+  height: 40vh;
+  border: 2px solid #e5e4e4;
+  border-radius: 5%;
+}
+.art2 .allcard .card3 h1 {
+  font-family: Bookshelf Symbol 7;
+  font-size: 1.7em;
+  text-wrap: wrap;
+}
+.art2 .allcard .card3 h1 a {
+  text-decoration: none;
+  color: #ff8600;
+}
+.art2 .allcard .card3 p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.06em;
+  padding: 3rem;
+  padding-top: 0.3em;
+  border: 2px solid none;
+  width: cover;
+  color: black;
+  text-wrap: wrap;
+}
+.art2 .allcard .card3:hover {
+  transform: translateY(-9px);
+}
+.art2 .allcard .card4 {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  border: none;
+  background-color: rgb(239, 239, 239);
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-left: 1em;
+  text-wrap: wrap;
+  box-shadow: 5px 5px 5px #c5c5c5;
+  border-radius: 5%;
+  width: 27vw;
+  height: cover;
+}
+.art2 .allcard .card4 img {
+  width: 26.7vw;
+  height: 40vh;
+  border: 2px solid #e5e4e4;
+  border-radius: 5%;
+}
+.art2 .allcard .card4 h1 {
+  font-family: Bookshelf Symbol 7;
+  font-size: 1.5em;
+  text-wrap: wrap;
+}
+.art2 .allcard .card4 h1 a {
+  text-decoration: none;
+  color: #ff8600;
+}
+.art2 .allcard .card4 p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.06em;
+  padding: 3rem;
+  padding-top: 0.3em;
+  border: 2px solid none;
+  width: cover;
+  color: black;
+  text-wrap: wrap;
+}
+.art2 .allcard .card4:hover {
+  transform: translateY(-9px);
+}
+.sec2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: justify;
+  align-items: center;
+  margin-top: 2em;
+  border: 3px solid none;
+  text-wrap: wrap;
+}
+.sec2 .he2 {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: none;
+  width: 100%;
+  text-wrap: wrap;
+  width: 100%;
+  margin-left: 3em;
+}
+.sec2 .he2 h4 {
+  font-family: Bookshelf Symbol 7;
+  font-size: 1.1em;
+  color: #ff8600;
+  margin-top: 1em;
+}
+.sec2 .he2 h1 {
+  font-family: Bookshelf Symbol 7;
+  font-size: 2.5em;
+  color: #ff8600;
+  margin-top: 0.5em;
+}
+.sec2 .he2 p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1em;
+  margin-top: 0.5em;
+  color: black;
+  border: none;
+  width: 100%;
+}
+.sec2 .he2 button {
+  padding: 0.8em;
+  background-color: #ff8600;
+  margin-top: 2em;
+  border: 2px solid #ff8600;
+  cursor: pointer;
+  border-radius: 2em;
+  margin-bottom: 1em;
+}
+.sec2 .he2 a button  {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  outline: none;
+  font-weight: bold;
+}
+.sec2 .he2 button:hover {
+  background-color: orange;
+  border: 2px solid orange;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: white;
+  height: auto;
+  text-wrap: wrap;
+  width: 100%;
+  margin-top: 1em;
+}
+footer .stay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+footer .stay h1 {
+  font-family: Bookshelf Symbol 7;
+  font-size: 2.5em;
+  margin-left: 1em;
+  color: #ff8600;
+}
+footer .stay p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5em;
+  margin-top: 0.5em;
+  margin-left: 1em;
+  width: auto;
+}
+
+footer .forms {
+  display: grid;
+  flex-wrap: wrap;
+  text-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.form1 {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+footer .forms form .form1 input,
+select,
+textarea {
+  padding: 0.6rem;
+  border: 1px solid #d8d8d8;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-left: 1em;
+}
+footer .form p {
+  margin: 1.5em;
+}
+footer .label {
+  display: inline-flex;
+  cursor: pointer;
+  margin-top: 1em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  margin-left: 3.7em;
+  /* margin-right: 1em; */
+  cursor: text;
+  text-align: center;
+  justify-items: center;
+}
+footer .label input {
+  width: 2vw;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 0.5em;
+}
+footer .label a {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  margin: 0.3em;
+}
+footer .sumit {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 1em;
+  text-wrap: wrap;
+  width: 100%;
+  height: 13vh;
+}
+footer .sumit button {
+  padding: 0.7em;
+  background-color: whitesmoke;
+  margin-top: 1em;
+  border: none;
+  cursor: pointer;
+  border-radius: 2em;
+  width: 10vw;
+  margin-bottom: 2em;
+  text-align: center;
+  justify-items: center;
+  font-size: 1.1em;
+  font-weight: 600;
+  border: 2px solid gray;
+}
+footer .sumit button:hover {
+  background-color: #ff8600;
+  border: 1px solid #ff8600;
+}
+.foo2 {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  color: #000;
+  height: auto;
+  text-wrap: wrap;
+  background-color: rgb(255, 134, 0, 0.7);
+}
+.foo2 .home1 img{
+  height: 13vh;
+  width: 7vw;
+  border-radius: 50%;
+  margin-top: 0.7em;
+}
+.foo2 .home1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-wrap: wrap;
+  border: 2px solid none;
+  font-weight: bold;
+}
+.foo2 .home1 .list ul li{
+  display: list-item;
+}
+.foo2 .home1 .home .swami a {
+  color: white;
+}
+.foo2 a:hover {
+  color: orangered;
+}
+.foo2 .home1 .list ul li a:hover {
+  color: orangered;
+}
+.foo2 .allicon {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  border: 2px solid none;
+}
+.foo2 .allicon .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  border: 2px solid none;
+}
+.foo2 .allcard .icon a {
+  text-decoration: none;
+}
+.foo2 .allicon .icon img {
+  width: 2.7vw;
+  height: 5.5vh;
+  margin-top: 1em;
+  margin-right: 1em;
+  cursor: pointer;
+}
+.foo2 .address {
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: start;
+  border: 2px solid none;
+}
+.foo2 .address p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  color: white;
+  margin-top: 0.1em;
+  margin-left: 3.5em;
+}
+.foo2 .address p:first-child {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 0.3em;
+}
+.foo2 .copy {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  border: 2px solid none;
+}
+.foo2 .copy p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.1em;
+  color: white;
+  margin-bottom: 0.3em;
+  margin-top: 0.5em;
+}
+.foo2 .copy a{
+  text-decoration: underline;
+  color: white;
+  font-size: 1.1em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0.3em;
+}

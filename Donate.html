@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation - Swami Vivekanand Helping Hand</title>
+    <link rel="stylesheet" href="/CSS\Donate.css">
+    <link rel="icon" href="/Images\Logos\logo1.jpg" type="image/icon type">
+</head>
+<style>
+</style>
+<body>
+    <header>
+        <div class="logo"><img src="/Images\Logos\logo1.jpg" alt="LOGO"></div>
+        <div class="home"><div class="swami"><a href="index.html">Swami Vivekananda </div> Helping Hand</a>
+    </div>
+        <div class="list">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Events.html">Events</a></li>
+                <li><a href="Volunteers.html">Volunteers</a></li>
+                <li><a href="/HTML\Contact Us.html">Contact Us</a></li>
+               <li><a href="LogIn.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff" fill="none">
+                <path d="M18.5 20V17.9704C18.5 16.7281 17.9407 15.5099 16.8103 14.9946C15.4315 14.3661 13.7779 14 12 14C10.2221 14 8.5685 14.3661 7.18968 14.9946C6.05927 15.5099 5.5 16.7281 5.5 17.9704V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <circle cx="12" cy="7" r="3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            </svg></a>
+               </li>
+        </div>
+        </header>
+        <nav>
+            <div class="head">
+                <h1>Your generosity makes a difference!</h1>
+            </div>
+            <div class="donation-types">
+                <a href="#forms"><div class="donation-tab" >Money Donation</div></a>
+               <a href="#Financial2"><div class="donation-tab">Clothes Donation</div></a>
+               <a href="#Financial3"><div class="donation-tab">Food Donation</div></a>
+               <a href="#Financial4"><div class="donation-tab">Other Donations</div></a> 
+            </div>
+            <div class="Financial">
+                <h2>Financial Contribution</h2>
+                <div class="para">
+                    <p>Your monetary donations help us fund education, healthcare, and community programs.</p>
+                </div>  
+            <div class="forms" id="forms">
+            <form>
+                <div class="form1">
+                    <label for="First Name">First Name</label>
+                    <input type="text" placeholder="First Name" required>
+                    <label for="Last Name">Last Name</label>
+                    <input type="text" placeholder="Last Name" required>
+                    <label for="Phone No.">Phone No.</label>
+                    <input type="number" placeholder="Phone no." required>
+                    <label for="Email">Email</label>
+                    <input type="text" placeholder="Email" required>
+                    <label for="amount">Donation Amount (₹)</label>
+                    <input type="number" id="amount" name="amount" required>
+                </div>
+                <div class="form1">
+                    <label>Payment Method</label>
+                    <select required>
+                    <option value="">Select Payment Method</option>
+                    <option>Credit/Debit Card</option>
+                    <option>UPI</option>
+                    <option>Net Banking</option>
+                    </select>
+                </div>
+                <button type="submit" class="donate-button">Donate Now</button>
+            </form>
+        </div>
+    </div> 
+    <div class="Financial2" id="Financial2">
+        <h2>Clothes Donation</h2>
+        <div class="para">
+            <p>Please donate clean, gently used clothing items</p>
+        </div>
+        <div class="forms">
+        <form>
+            <div class="form1">
+                <label for="First Name">First Name</label>
+                <input type="text" placeholder="First Name" required>
+                <label for="Last Name">Last Name</label>
+                <input type="text" placeholder="Last Name" required>
+                <label for="Phone No.">Phone No.</label>
+                <input type="number" placeholder="Phone No." required>
+                <label>Clothing Type</label>
+                <select required>
+                    <option value="">Select Clothing Type</option>
+                    <option>Men's Wear</option>
+                    <option>Women's Wear</option>
+                    <option>Children's Wear</option>
+                    <option>Winter Wear</option>
+                </select>
+            </div>
+            <div class="form1">
+                <label>Quantity (Pieces)</label>
+                <input type="number" required>
+            </div>
+            <div class="form1">
+                <label>Condition</label>
+                <select required>
+                    <option value="">Select Condition</option>
+                    <option>New</option>
+                    <option>Gently Used</option>
+                    <option>Needs Repair</option>
+                </select>
+            </div>
+            <button type="submit" class="donate-button">Schedule Pickup</button>
+        </form>
+         </div>
+        </div>
+        <div class="Financial3" id="Financial3">
+            <h2>Food Donation</h2>
+            <div class="para">
+                <p>Please donate non-perishable food items with valid expiry dates.</p>
+            </div> 
+            <div class="forms">
+                <form>
+                    <div class="form1">
+                        <label for="First Name">First Name</label>
+                        <input type="text" placeholder="First Name" required>
+                        <label for="Last Name">Last Name</label>
+                        <input type="text" placeholder="Last Name" required>
+                        <label for="Phone No.">Phone No.</label>
+                        <input type="number" placeholder="Phone No." required>
+                        <label>Food Type</label>
+                        <select required>
+                            <option value="">Select Food Type</option>
+                            <option>Grains & Pulses</option>
+                            <option>Packaged Food</option>
+                            <option>Ready-to-Eat</option>
+                            <option>Baby Food</option>
+                        </select>
+                    </div>
+                    <div class="form1">
+                        <label>Mfd. Date</label>
+                        <input type="date" required>
+                        <label>Expiry Date</label>
+                        <input type="date" required>
+                    </div>
+                    <div class="form1">
+                        <label>Quantity (Kgs)</label>
+                        <input type="number" step="0.1" required>
+                    </div>
+                    <button type="submit" class="donate-button">Schedule Donation</button>
+                </form>
+            </div> 
+            </div>
+       <div class="Financial4" id="Financial4">
+        <h2>Other Donation</h2>
+        <div class="para">
+            <p>Specify what you'd like to donate (Furniture, Books, Toys, etc.)</p>
+        </div> 
+        <div class="forms">
+        <form>
+            <div class="form1">
+                <label for="First Name">First Name</label>
+                <input type="text" placeholder="First Name" required>
+                <label for="Last Name">Last Name</label>
+                <input type="text" placeholder="Last Name" required>
+                <label for="Phone No.">Phone No.</label>
+                <input type="number" placeholder="Phone No." required>
+                <label>Donation Type</label>
+                <input type="text" placeholder="e.g., Books, Furniture, Toys" required>
+            </div>
+            <div class="form1">
+                <label>Description</label>
+                <textarea rows="4" placeholder="Please describe your donation"></textarea>
+            </div>
+            <button type="submit" class="donate-button">Submit Donation Request</button>
+        </form> 
+    </div>
+        </div>
+    </nav>
+        <footer>
+            <p>Contact us: events@svhelp.org | Phone: +91 1234567890</p>
+            <p>&copy; 2025 Swami Vivekanand Helping Hand. All Rights Reserved.</p>
+            <a href="#" style="color: white; margin: 0 1rem;">Privacy Policy</a>
+            <a href="#" style="color: white; margin: 0 1rem;">Terms of Service</a>
+          </footer>
+</body>
+</html>

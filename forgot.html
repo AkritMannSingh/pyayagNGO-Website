@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account Recovery - Swami Vivekanand Helping Hand</title>
+    <link rel="stylesheet" href="/CSS\forgot.css">
+    <link rel="icon" href="/Images\Logos\logo1.jpg" type="image/icon type">
+  </head>
+  <body>
+    <div class="recovery-container">
+      <h1>
+        Account Recovery
+      </h1>
+
+      <div class="recovery-tabs">
+        <div class="tab active" onclick="showForm('userId')" id="tab active1">
+          Forgot User ID
+        </div>
+        <a href="#tab active">
+        <div class="tab" onclick="showForm('password')" id="tab">Forgot Password</div>
+      </div>
+    </a>
+      <div class="recovery-form active" id="userIdForm">
+        <form>
+          <div class="form-group">
+            <label for="email">Registered Email Address</label>
+            <input type="email" id="email" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Registered Mobile Number</label>
+            <input type="tel" id="phone" required />
+          </div>
+          <button type="submit" class="submit-btn">Recover User ID</button>
+        </form>
+      </div>
+
+      <div class="recovery-form" id="passwordForm">
+        <form>
+          <div class="form-group">
+            <label for="userId">User ID</label>
+            <input type="text" id="userId" required />
+          </div>
+          <div class="form-group">
+            <label for="resetEmail">Registered Email</label>
+            <input type="email" id="resetEmail" required />
+          </div>
+          <button type="submit" class="submit-btn">Reset Password</button>
+        </form>
+      </div>
+
+      <p class="help-text">
+        Please enter your registered details. We will send recovery instructions
+        to your verified email and mobile number.
+      </p>
+
+      <div class="support-contact">
+        Need help? Contact us at<br />
+        <a href="mailto:support@svhelpinghand.org"
+          >📧support@svhelpinghand.org</a
+        ><br />
+        ☎ +91 1234567890
+      </div>
+    </div>
+    <div class="recovery-container">
+        <h1>
+          Password Recovery
+        </h1>
+        <div class="recovery-tabs">
+            <a href="#tab active1">
+          <div class="tab" onclick="showForm('userId')">
+            Forgot User ID
+          </div>
+        </a>
+          <div class="tab active" onclick="showForm('password')" id="tab active">Forgot Password</div>
+        </div>
+        <div class="recovery-form active" id="userIdForm">
+          <form>
+            <div class="form-group">
+              <label for="user id">User Id</label>
+              <input type="email" id="email" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Registered Email Address</label>
+              <input type="tel" id="phone" required />
+            </div>
+            <button type="submit" class="submit-btn">Reset Password</button>
+          </form>
+        </div>
+  
+        <div class="recovery-form" id="passwordForm">
+          <form>
+            <div class="form-group">
+              <label for="userId">User ID</label>
+              <input type="text" id="userId" required />
+            </div>
+            <div class="form-group">
+              <label for="resetEmail">Registered Email</label>
+              <input type="email" id="resetEmail" required />
+            </div>
+            <button type="submit" class="submit-btn">Reset Password</button>
+          </form>
+        </div>
+  
+        <p class="help-text">
+          Please enter your registered details. We will send recovery instructions
+          to your verified email and mobile number.
+        </p>
+  
+        <div class="support-contact">
+          Need help? Contact us at<br />
+          <a href="mailto:support@svhelpinghand.org"
+            >📧support@svhelpinghand.org</a
+          ><br />
+          ☎ +91 1234567890
+        </div>
+      </div>
+  </body>
+</html>

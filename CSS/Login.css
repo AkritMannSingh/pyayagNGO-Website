@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (max-width: 480px) {
+  .card {
+    width: 90% !important;
+    margin-top: 7em !important;
+  }
+
+  input{
+    width: 80vw !important;
+  }
+  .button button{
+    width: 80vw !important;
+  }
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/Images/Slide/300-PS1071169.jpg");
+  background-position: center;
+  background-size: cover;
+}
+header {
+  display: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+header .card {
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(216, 216, 216);
+  width: 30%;
+  height: 65vh;
+  background-position: center;
+  background-size: contain;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 0.3em;
+  margin-top: 10%;
+  box-shadow: 2px 2.5px 1.5px rgb(225, 225, 225);
+}
+header .card .img img {
+  width: 30%;
+  height: 13%;
+  border-radius: 50%;
+}
+header .card .head {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  border: 2px solid none;
+  flex-wrap: wrap;
+}
+header .card .head h1 {
+  font-size: 1.3em;
+  font-weight: lighter;
+  color: rgb(67, 67, 67);
+  font-family: Open Sans, sans-serif;
+  margin-bottom: 1em;
+}
+header .card .head input {
+  width: 25vw;
+  height: 6vh;
+  border: 1px solid rgb(149, 148, 148);
+  border-radius: 0.1em;
+  margin-bottom: 2em;
+  text-align: start;
+}
+input:focus {
+  outline: 2px solid #ff8600;
+  border-color: transparent;
+}
+header .card .button {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  border: 2px solid none;
+  flex-wrap: wrap;
+}
+header .card .button button {
+  width: 25vw;
+  height: 6vh;
+  border: 1px solid #ff8600;
+  border-radius: 0.5em;
+  background-color: #ff8600;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: Open Sans, sans-serif;
+  cursor: pointer;
+}
+header .card .button button:hover {
+  background-color: #ee942c;
+  color: white;
+}
+header .card .button p {
+  font-size: 0.8em;
+  font-weight: lighter;
+  color: rgb(67, 67, 67);
+  font-family: Open Sans, sans-serif;
+  margin-top: 1em;
+}
+header .card .button p a {
+  text-decoration: none;
+  color: rgb(149, 149, 149);
+}
+header .card .button p a:hover {
+  color: #ff8600;
+}

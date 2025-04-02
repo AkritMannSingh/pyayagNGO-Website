@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Volunteer Registration - Swami Vivekanand Helping Hand</title>
+    <link rel="stylesheet" href="/CSS\become.css">
+    <link rel="icon" href="/Images\Logos\logo1.jpg" type="image/icon type">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="registration-box">
+        <h2 class="form-title">Volunteer Registration Form</h2>
+        <form class="registration-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fullname">Full Name</label>
+              <input type="text" id="fullname" name="fullname" required />
+            </div>
+            <div class="form-group">
+              <label for="age">Age</label>
+              <input type="number" id="age" name="age" min="18" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                pattern="[0-9]{10}"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="address">Address</label>
+            <textarea id="address" name="address" rows="3" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label>Areas of Interest</label>
+            <div class="checkbox-group">
+              <label class="checkbox-item">
+                <input type="checkbox" name="interest" value="education" />
+                Education
+              </label>
+              <label class="checkbox-item">
+                <input type="checkbox" name="interest" value="healthcare" />
+                Healthcare
+              </label>
+              <label class="checkbox-item">
+                <input type="checkbox" name="interest" value="environment" />
+                Environment
+              </label>
+              <label class="checkbox-item">
+                <input
+                  type="checkbox"
+                  name="interest"
+                  value="women-empowerment"
+                />
+                Women Empowerment
+              </label>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="availability">Availability</label>
+              <select id="availability" name="availability" required>
+                <option value="">Select Availability</option>
+                <option>Weekdays</option>
+                <option>Weekends</option>
+                <option>Both</option>
+                <option>Flexible</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="experience">Previous Volunteer Experience</label>
+              <select id="experience" name="experience" required>
+                <option value="">Select Experience</option>
+                <option>None</option>
+                <option>1-2 years</option>
+                <option>3-5 years</option>
+                <option>5+ years</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="skills">Special Skills/Comments</label>
+            <textarea id="skills" name="skills" rows="4"></textarea>
+          </div>
+
+          <button type="submit" class="submit-button">
+            Register as Volunteer
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <p>Contact us: volunteer@svhelp.org | Phone: +91 98765 43210</p>
+      <p>© 2025 Swami Vivekanand Helping Hand. All rights reserved.</p>
+    </footer>
+
+  </body>
+</html>

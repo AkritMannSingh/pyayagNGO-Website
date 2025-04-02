@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (max-width: 770px) {
+  header {
+    height: auto;
+    padding: 1rem;
+    background-position: top;
+    width: 780px;
+    text-align: left !important;
+    justify-content: center !important;
+  }
+
+  .home a {
+    font-size: 1.2rem;
+    text-align: left !important;
+  }
+  .logo img {
+    width: 100px !important;
+    height: 90px !important;
+    margin-top: 5px !important;
+  }
+  .list ul {
+    flex-direction: row;
+    display: flex;
+    gap: 15px;
+    margin-top: 50px !important;
+    padding: 0;
+    text-align: center;
+  }
+  .list ul li {
+    display: flex;
+  }
+  .list ul li img {
+    width: 20px !important;
+  }
+  footer{
+    width: 1430px !important;
+    margin-top: 1400px !important;
+  } 
+}
+@media (max-width: 480px) {
+  header {
+    width: 1400px;
+    justify-content: left;
+    align-items: start;
+    text-align: left;
+  }
+  .home {
+    margin-top: 15px !important;
+  }
+  .card{
+    width: 1430px;
+    margin-top: 100px;
+    background-repeat: round;
+  }
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/Images/Slide/NGO (6).png");
+  background-position: center;
+  background-size: cover;
+
+  color: #333;
+}
+header {
+  display: flex;
+  border: 2px solid none;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.three {
+  border: none;
+}
+header .logo img {
+  margin-top: 3px;
+  margin-right: 8px;
+  width: 7vw;
+  border: 2px solid none;
+  height: 13vh;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.home {
+  margin-top: 10px;
+  justify-content: left;
+}
+.home a {
+  font-family: Merriweather, Georgia, serif;
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: white;
+  flex-wrap: nowrap;
+  text-decoration: none;
+}
+.home a:hover {
+  color: #ff8600;
+}
+.swami a {
+  color: #ff8600;
+  text-decoration: none;
+}
+
+.list {
+  display: flex;
+}
+.list ul {
+  display: flex;
+  gap: 30px;
+  margin: 0 100px 0;
+  margin-top: 30px;
+}
+.list ul li {
+  list-style: none;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+}
+.list ul li a {
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.list ul li a:hover {
+  color: #ff8600;
+}
+.list ul li svg:hover{
+  color: #ff8600;
+}
+nav{
+  display:contents;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff8600;
+  height: 10vh;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.container {
+  max-width: 120vw;
+  margin: 5em auto;
+  padding: 0 20px;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 1em;
+  transition: transform 0.2s;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.event-title {
+  font-size: 1.8rem;
+  color: #ff8600;
+  margin-bottom: 0.5em;
+}
+
+.event-details {
+  font-size: 1rem;
+  margin-bottom: 1em;
+  color: #555;
+}
+
+.event-date,
+.event-location {
+  font-weight: bold;
+}
+
+.register {
+  display: inline-block;
+  padding: 0.6em 1.1em;
+  background-color: #ff8600;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5em;
+  transition: background-color 0.3s;
+  margin-top: 0.5em;
+}
+
+.register:hover {
+  background-color: #e6963b;
+}
+
+footer {
+  background-color: #ff8600;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  margin-top: 10em;
+  width: 100%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .event-title {
+    font-size: 1.5rem;
+  }
+}

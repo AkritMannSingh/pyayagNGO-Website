@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3f3f3;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header {
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  text-wrap: wrap;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/Images/Slide/ngo (16).png");
+  background-position: center;
+  background-size: cover;
+}
+.three {
+  border: none;
+}
+header .logo img {
+  margin-top: 3px;
+  margin-right: 8px;
+  width: 7vw;
+  border: 2px solid none;
+  height: auto;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.home {
+  margin-top: 10px;
+  justify-content: left;
+}
+.home a {
+  font-family: Merriweather, Georgia, serif;
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: white;
+  flex-wrap: nowrap;
+  text-decoration: none;
+}
+.home a:hover {
+  color: #ff8600;
+}
+.swami a {
+  color: #ff8600;
+  text-decoration: none;
+}
+
+.list {
+  display: flex;
+}
+.list ul {
+  display: flex;
+  gap: 30px;
+  margin: 0 100px 0;
+  margin-top: 30px;
+}
+.list ul li {
+  list-style: none;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+}
+.list ul li a {
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.list ul li a:hover {
+  color: #ff8600;
+}
+.list ul li img {
+  width: 1.7vw;
+  border-radius: 50%;
+}
+header nav {
+  justify-content: center;
+  align-items: center;
+}
+main {
+  justify-content: center;
+  align-items: center;
+  border: 2px solid none;
+  margin-top: 2em;
+  height: 100%;
+}
+header nav .hero {
+  height: 60vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+main .hero2 {
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+main .hero2 .text {
+  flex: 1;
+}
+main .hero2 .text1 p {
+  margin-top: 1em;
+}
+header nav .hero .button1 {
+  background-color: #ff8600;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-top: 2rem;
+  font-weight: 600;
+}
+header nav .hero .button1 a {
+  text-decoration: none;
+  color: white;
+}
+main .hero2 .content-image {
+  flex: 1;
+  max-width: 500px;
+  border-radius: 10px;
+}
+main .forms {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+main .forms input,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+input:focus,
+textarea:focus{
+  outline: 2px solid #ff8600;
+  border-color: transparent;
+}
+main .forms .button2 {
+  background-color: #ff8600;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+main .last {
+  background-color: #f8f8f8;
+  padding: 2rem;
+  margin: 2rem 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+main h3{
+  color: #ff8600;
+}
+@media (max-width: 768px) {
+  .content-section {
+    flex-direction: column;
+  }
+}

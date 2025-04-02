@@ -1,0 +1,332 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (max-width: 770px) {
+  header {
+    height: auto;
+    padding: 1rem;
+    background-position: top;
+    width: 500px;
+  }
+
+  .home a {
+    font-size: 1.2rem;
+    text-align: left !important;
+  }
+  .logo img{
+    width: 100px !important;
+    height: 90px !important;
+    margin-top: 5px !important;
+  }
+  .list ul {
+    display: flex;
+    gap: 5px;
+    margin: 20px 0;
+    margin-top: 50px !important;
+    padding: 0;
+    text-align: center;
+  }
+  .list ul li{
+    display: none;
+  }
+  .list ul li img{
+    width: 20px !important;
+  }
+  nav {
+    grid-template-columns: 1fr !important;
+  }
+  nav{
+    width: 550px;
+  }
+  .head{
+    margin-left: 250px;
+  }
+  nav .donation-types{
+   margin-left: 250px;
+  }
+  .Financial{
+    margin-left: 250px;
+    width: 600px;
+  }
+  .Financial2{
+    margin-left: 250px;
+    width: 600px;
+  }
+  .Financial3{
+    margin-left: 250px;
+    width: 600px;
+  }
+  .Financial4{
+    margin-left: 250px;
+    width: 600px;
+  }
+  footer{
+    width: 800px !important;
+  }
+}
+  @media (max-width: 480px) {
+    header{
+      width: 800px;
+      justify-content: left;
+      align-items: start;
+      text-align: left;
+    }
+  }
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/Images/Slide/300-PS1071169.jpg");
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header {
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  text-wrap: wrap;
+}
+.three {
+  border: none;
+}
+header .logo img {
+  margin-top: 3px;
+  margin-right: 8px;
+  width: 7vw;
+  border: 2px solid none;
+  height: auto;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.home {
+  margin-top: 10px;
+  justify-content: left;
+}
+.home a {
+  font-family: Merriweather, Georgia, serif;
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: white;
+  flex-wrap: nowrap;
+  text-decoration: none;
+}
+.home a:hover {
+  color: #ff8600;
+}
+.swami a {
+  color: #ff8600;
+  text-decoration: none;
+}
+
+.list {
+  display: flex;
+}
+.list ul {
+  display: flex;
+  gap: 30px;
+  margin: 0 100px 0;
+  margin-top: 30px;
+}
+.list ul li {
+  list-style: none;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+}
+.list ul li a {
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.list ul li a:hover {
+  color: #ff8600;
+}
+.list ul li svg:hover{
+  color: #ff8600;
+}
+nav{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* border: 2px solid black; */
+  margin-top: 3em;
+}
+nav .head{
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid none;
+}
+nav .head h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5em;
+  color: #ff8600;
+  font-style: italic;
+}
+nav .donation-types {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 0;
+  border: 1.5px solid none;
+  margin-top: 2em;
+}
+nav .donation-tab {
+  padding: 1.5rem 0.5rem;
+  background-color: white;
+  border-radius: 0.3em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid #ff8600;
+}
+nav a .donation-tab{
+  text-decoration: none;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+nav a{
+  text-decoration: none;
+  color: black;
+}
+.donation-tab:active {
+  background-color: #ff8600;
+  color: black;
+}
+nav .Financial{
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+  margin-top: 2em;
+}
+nav .Financial h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  color: #ff8600;
+}
+nav .Financial2{
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+  margin-top: 2em;
+}
+nav .Financial2 h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  color: #ff8600;
+}
+nav .Financial3{
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+  margin-top: 2em;
+}
+nav .Financial3 h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  color: #ff8600;
+}
+nav .Financial4{
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+  margin-top: 2em;
+}
+nav .Financial4 h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  color: #ff8600;
+}
+nav .para{
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid #ffe3c3;
+  margin-top: 1em;
+  padding: 1.5rem;
+  border-radius: 0.5em;
+  background-color: #ffe3c3;
+  font-size: 1.1em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav .forms {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav .forms form .form1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+nav .form1 input, select, textarea {
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+nav form .form1 label{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav .donation-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+nav .donation-card {
+  background-color: #f8fafc;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  border: 2px solid #ff8600;
+}
+
+nav .donate-button {
+  background-color: #ff8600;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 1rem;
+}
+
+nav .donate-button:hover {
+  background-color: #ff9e2e;
+}
+footer {
+  background-color: #ff8600;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  margin-top: 10em;
+  width: 100%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+}

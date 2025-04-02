@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/Images/Slide/300-PS1071169.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recovery-container {
+  background: white;
+  width: 90%;
+  max-width: 500px;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  color: #ff8600;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.recovery-tabs {
+  display: flex;
+  border-bottom: 2px solid #eee;
+  margin-bottom: 1.5rem;
+}
+.recovery-tabs a {
+  text-decoration: none;
+}
+.tab {
+  padding: 1rem 2rem;
+  cursor: pointer;
+  color: #ff8600;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.tab.active {
+  color: #ff8600;
+  border-bottom: 3px solid #ff8600;
+}
+
+.recovery-form {
+  display: none;
+}
+
+.recovery-form.active {
+  display: block;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: orange;
+  font-weight: 500;
+}
+
+input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: none;
+  border-color: #ff8600;
+  box-shadow: 0 0 0 2px rgba(230, 126, 34, 0.1);
+}
+
+.submit-btn {
+  background: #ff8600;
+  color: white;
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #ffa238;
+}
+
+.help-text {
+  text-align: center;
+  color: #666;
+  margin: 1.5rem 0;
+  line-height: 1.6;
+}
+
+.support-contact {
+  text-align: center;
+  color: #666;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.support-contact a {
+  color: #ff8600;
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .recovery-container {
+    padding: 1.5rem;
+  }
+
+  .tab {
+    padding: 0.8rem 1rem;
+    font-size: 0.9rem;
+  }
+}

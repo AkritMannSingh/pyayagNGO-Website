@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", sans-serif;
+}
+@media (max-width: 768px) {
+  .hero {
+    padding: 3rem 1rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .process-steps {
+    grid-template-columns: 1fr;
+  }
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url("/Images/Slide/300-PS1071169.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 10;
+  line-height: 1.6;
+  color: #334155;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  z-index: 1;
+}
+.hero {
+  text-align: center;
+  display: list-item;
+  align-items: center;
+  justify-content: start;
+  color: #ff8600;
+  margin-bottom: 2rem;
+  border: none;
+  background-color: whitesmoke;
+  border-radius: 0 0 1.2rem 1.2rem;
+  width: 100%;
+}
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.process-steps {
+  display: grid;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+.step-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
+}
+.step-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+.step-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: #ff8600;
+}
+section{
+  background-color: whitesmoke;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.content-section {
+  margin-bottom: 3rem;
+}
+
+.content-section h2 {
+  color: #ff8600;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.content-section p {
+  color: #666;
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}
+.step-number {
+  font-size: 2.5rem;
+  color: orange;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  opacity: 0.7;
+}
+
+.step-title {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #ff8600;
+}
+
+.step-description {
+  color: #64748b;
+  font-size: 1rem;
+}
+
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.8rem 1.5rem;
+  background: #ff8600;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+  border: 2px solid #ff8600;
+}
+
+.back-button:hover {
+  background: orange;
+}
+
+.mission-section {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: white;
+  margin: 3rem 0;
+  border-radius: 1rem;
+}
+
+.mission-text {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #695a3e;
+  line-height: 1.8;
+}
+footer {
+  background-color: #ff8600;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  margin-top: 10em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
