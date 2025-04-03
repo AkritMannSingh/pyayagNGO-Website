@@ -354,7 +354,7 @@ header {
   background-size: cover;
   justify-content: space-around;
   text-align: justify;
-  flex-wrap: wrap;8
+  flex-wrap: wrap;
   height: 100vh;
   z-index: 30;
 }
