@@ -8,7 +8,6 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/Images/Slide/300-PS1071169.jpg");
   background-position: center;
   background-size: cover;
-  width: 100%;
   justify-content: center;
 }
 .container {
@@ -117,10 +116,13 @@ footer {
     grid-template-columns: 1fr;
   }
   .container{
-    width: 1000px !important;
-    margin-top: 5em;
+    width: 700px !important;
+    margin-top: 17em;
   }
+
   footer{
-    width: ;
+    width: 1000px;
+    margin-top: 300px;
   }
 }
+

@@ -13,16 +13,16 @@
     background-position: top;
     width: 500px !important;
     text-align: left !important;
-    justify-content: center !important;
+    justify-content: left !important;
   }
 
   .home a {
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
     text-align: left !important;
   }
   .logo img {
-    width: 150px !important;
-    height: 150px !important;
+    width: 100px !important;
+    height: cover;
     margin-top: 5px !important;
   }
   .list ul {
@@ -44,6 +44,18 @@
   }
   footer{
     width: 500px !important;
+  }
+  main{
+    width: 500px !important;
+  }
+  .card{
+    width: 400px !important;
+    height: cover;
+    margin-right: 100px;
+  }
+  .card img{
+    width: 300px !important;
+    height: cover;
   }
 }
 @media (max-width: 480px) {
