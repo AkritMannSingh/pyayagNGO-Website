@@ -281,7 +281,7 @@ header {
   display: flex;
   border: 2px solid black;
    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/Images/Slide/300-PS1071169.jpg");
+    url("/Images/Slide/homebg.jpeg");
   background-position: center;
   background-size: cover;
   justify-content: space-around;
