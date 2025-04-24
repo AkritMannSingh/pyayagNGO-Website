@@ -59,7 +59,7 @@ header {
 }
 header .logo img {
   margin-top: 3px;
-  margin-right: 8px;
+  margin-right: 60px;
   width: 7vw;
   border: 2px solid none;
   height: 13vh;
@@ -72,7 +72,7 @@ header .logo img {
   justify-content: left;
 }
 .home a {
-  font-family: Merriweather, Georgia, serif;
+  font-family: Ink Free;
   font-weight: bold;
   font-size: 1.5rem;
   color: white;
@@ -99,7 +99,7 @@ header .logo img {
 .list ul li {
   list-style: none;
   color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Bookshelf Symbol 7;
   font-size: 18px;
 }
 .list ul li a {
@@ -111,10 +111,6 @@ header .logo img {
 .list ul li a:hover {
   color: #ff8600;
 }
-.list ul li img {
-  width: 1.7vw;
-  border-radius: 50%;
-}
 .list ul li img:hover {
   border: 1px solid #ff8600;
 }
@@ -124,7 +120,7 @@ nav {
   text-align: center;
 }
 nav h1 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Bookshelf Symbol 7;
   font-size: 2em;
   color: #ff8600;
   margin-bottom: 1em;
@@ -133,7 +129,7 @@ nav h1 {
 .news-container {
   max-width: 1200px;
   padding: 0 1rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Bookshelf Symbol 7;
 }
 
 .news-grid {

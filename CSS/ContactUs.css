@@ -82,8 +82,8 @@ header {
   border: none;
 }
 header .logo img {
-  margin-top: 10px;
-  margin-right: 8px;
+  margin-top: 7px;
+  margin-right: 60px;
   width: 7vw;
   border: 2px solid none;
   height: auto;
@@ -96,7 +96,7 @@ header .logo img {
   justify-content: left;
 }
 .home a {
-  font-family: Merriweather, Georgia, serif;
+  font-family: Ink Free;
   font-weight: bold;
   font-size: 1.7rem;
   color: white;
@@ -123,7 +123,7 @@ header .logo img {
 .list ul li {
   list-style: none;
   color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Bookshelf Symbol 7;
   font-size: 18px;
 }
 .list ul li a {
@@ -162,7 +162,7 @@ nav .head {
   margin-top: 4em;
 }
 nav .head h1 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Bookshelf Symbol 7;
   font-size: 1.5em;
   font-weight: bold;
   color: #ff8600;

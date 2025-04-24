@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  border: 2px solid none;
+  justify-content: space-around;
+  text-align: justify;
+  flex-wrap: wrap;
+}
+.three {
+  border: none;
+}
+header .logo img {
+  margin-top: 7px;
+  width: 7vw;
+  border: 2px solid none;
+  height: 13vh;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.home {
+  margin-top: 15px;
+  justify-content: left;
+}
+.home a {
+  font-family: Ink Free;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.7rem;
+  color: rgb(0, 0, 0);
+  flex-wrap: nowrap;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+.home a:hover {
+  color: #ff8600;
+}
+.swami a {
+  color: #ff8600;
+  text-decoration: none;
+}
+
+.list {
+  display: flex;
+}
+.list ul {
+  display: flex;
+  gap: 30px;
+  margin: 0 100px 0;
+  margin-top: 40px;
+}
+.list ul li {
+  list-style: none;
+  color: rgb(0, 0, 0);
+  font-family: Bookshelf Symbol 7;
+  font-size: 18px;
+}
+.list ul li a {
+  color: rgb(0, 0, 0);
+  font-style: normal;
+  text-decoration: none;
+}
+
+.list ul li a:hover {
+  color: #ff8600;
+}
+.list ul li a svg {
+  color: #000000;
+}
+.list ul li a svg:hover {
+  color: #ff8600;
+}
+nav {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+nav h1 {
+  font-family: Bookshelf Symbol 7;
+  font-size: 30px;
+  color: #ff8600;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.content-section {
+  background: white;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  color: #ff8600;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+p {
+  margin-bottom: 0.5em;
+  color: #333;
+}
+
+.footer {
+  background-color: #ff8600;
+  color: white;
+  text-align: center;
+  margin-top: auto;
+}
+
+ol {
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .content-section {
+    padding: 1.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
+
+.section-number {
+  counter-reset: section;
+}
+
+.content-section h2::before {
+  counter-increment: section;
+  content: counter(section) ". ";
+  color: #ff8600;
+}

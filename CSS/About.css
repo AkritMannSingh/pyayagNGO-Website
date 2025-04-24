@@ -226,6 +226,33 @@ nav .card p:last-child {
   font-size: 1rem;
   font-weight: 600;
 }
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+section .button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+section .button a {
+  text-decoration: none;
+  color: white;
+}
+section .button a button{
+  background-color: #ff8600;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+}
 footer {
   background-color: #ff8600;
   color: #fff;

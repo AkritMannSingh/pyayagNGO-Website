@@ -59,7 +59,7 @@
 }
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/Images/Slide/NGO (6).png");
+    url("/Images/Slide/IMG-20250420-WA0012.jpg");
   background-position: center;
   background-size: cover;
 
@@ -70,7 +70,7 @@ header {
   border: 2px solid none;
   background-position: center;
   background-size: cover;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 .three {
@@ -91,7 +91,7 @@ header .logo img {
   justify-content: left;
 }
 .home a {
-  font-family: Merriweather, Georgia, serif;
+  font-family: Ink Free;
   font-weight: bold;
   font-size: 1.7rem;
   color: white;
@@ -118,7 +118,7 @@ header .logo img {
 .list ul li {
   list-style: none;
   color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Bookshelf Symbol 7;
   font-size: 18px;
 }
 .list ul li a {
@@ -156,7 +156,7 @@ nav{
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 1em;
   transition: transform 0.2s;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Bookshelf Symbol 7f;
 }
 
 .card:hover {

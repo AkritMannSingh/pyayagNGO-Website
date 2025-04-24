@@ -64,7 +64,7 @@ header .card .head h1 {
   font-size: 1.3em;
   font-weight: lighter;
   color: rgb(67, 67, 67);
-  font-family: Open Sans, sans-serif;
+  font-family: Bookshelf Symbol 7;
   margin-bottom: 1em;
 }
 header .card .head input {
@@ -95,9 +95,9 @@ header .card .button button {
   border-radius: 0.5em;
   background-color: #ff8600;
   color: white;
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: bold;
-  font-family: Open Sans, sans-serif;
+  font-family: Calibri;
   cursor: pointer;
 }
 header .card .button button:hover {
@@ -105,10 +105,10 @@ header .card .button button:hover {
   color: white;
 }
 header .card .button p {
-  font-size: 0.8em;
+  font-size: 1em;
   font-weight: lighter;
   color: rgb(67, 67, 67);
-  font-family: Open Sans, sans-serif;
+  font-family: Bookshelf Symbol 7;
   margin-top: 1em;
 }
 header .card .button p a {

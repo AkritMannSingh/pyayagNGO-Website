@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  border: 2px solid none;
+  justify-content: space-around;
+  text-align: justify;
+  flex-wrap: wrap;
+  /* height: 100vh; */
+}
+.three {
+  border: none;
+}
+header .logo img {
+  margin-top: 7px;
+  width: 7vw;
+  border: 2px solid none;
+  height: 13vh;
+  /* border-radius: 50%; */
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.home {
+  margin-top: 15px;
+  justify-content: left;
+}
+.home a {
+  font-family: Ink Free;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.7rem;
+  color: rgb(0, 0, 0);
+  flex-wrap: nowrap;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+.home a:hover {
+  color: #ff8600;
+}
+.swami a {
+  color: #ff8600;
+  text-decoration: none;
+}
+
+.list {
+  display: flex;
+}
+.list ul {
+  display: flex;
+  gap: 30px;
+  margin: 0 100px 0;
+  margin-top: 40px;
+}
+.list ul li {
+  list-style: none;
+  color: rgb(0, 0, 0);
+  font-family: Bookshelf Symbol 7;
+  font-size: 18px;
+}
+.list ul li a {
+  color: rgb(0, 0, 0);
+  font-style: normal;
+  text-decoration: none;
+}
+
+.list ul li a:hover {
+  color: #ff8600;
+}
+.list ul li a svg {
+  color: #000000;
+}
+.list ul li a svg:hover {
+  color: #ff8600;
+}
+nav {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+nav h1 {
+  font-family: Bookshelf Symbol 7;
+  font-size: 30px;
+  color: #ff8600;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Bookshelf Symbol 7;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.policy-section {
+  margin: 2rem 0;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.policy-section h2 {
+  color: #ff8600;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.policy-section p {
+  margin-bottom: 1rem;
+}
+
+.contact-info {
+  background-color: #e8eaf6;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+.contact-info h2 {
+  color: #ff8600;
+  margin-bottom: 1rem;
+}
+.footer {
+  background-color: #ff8600;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .policy-section {
+    padding: 1.5rem;
+  }
+
+  .container {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .policy-section h2 {
+    font-size: 1.4rem;
+  }
+}

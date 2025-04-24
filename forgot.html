@@ -8,13 +8,16 @@
     <link rel="icon" href="Images\Logos\logo1.jpg" type="image/icon type">
   </head>
   <body>
-    <div class="recovery-container">
+    <div class="back">
+      <a href="index.html">Back To Home</a>
+    </div>
+    <div class="recovery-container" id="tab active1">
       <h1>
         Account Recovery
       </h1>
 
       <div class="recovery-tabs">
-        <div class="tab active" onclick="showForm('userId')" id="tab active1">
+        <div class="tab active" onclick="showForm('userId')">
           Forgot User ID
         </div>
         <a href="#tab active">
@@ -62,7 +65,7 @@
         ☎ +91 1234567890
       </div>
     </div>
-    <div class="recovery-container">
+    <div class="recovery-container" id="tab active">
         <h1>
           Password Recovery
         </h1>
@@ -72,7 +75,7 @@
             Forgot User ID
           </div>
         </a>
-          <div class="tab active" onclick="showForm('password')" id="tab active">Forgot Password</div>
+          <div class="tab active" onclick="showForm('password')">Forgot Password</div>
         </div>
         <div class="recovery-form active" id="userIdForm">
           <form>

@@ -14,8 +14,19 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 10;
 }
-
+.back{
+  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-right: 60em;
+}
+.back a{
+  text-decoration: underline;
+  color: #ff8600;
+  font-size: 1.1em;
+  font-weight: 500;
+}
 .recovery-container {
   background: white;
   width: 90%;

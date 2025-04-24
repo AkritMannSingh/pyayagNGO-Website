@@ -27,7 +27,7 @@ header {
 }
 header .logo img {
   margin-top: 3px;
-  margin-right: 8px;
+  margin-right: 60px;
   width: 7vw;
   border: 2px solid none;
   height: auto;
@@ -40,7 +40,7 @@ header .logo img {
   justify-content: left;
 }
 .home a {
-  font-family: Merriweather, Georgia, serif;
+  font-family: Ink Free;
   font-weight: bold;
   font-size: 1.7rem;
   color: white;
@@ -67,7 +67,7 @@ header .logo img {
 .list ul li {
   list-style: none;
   color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Bookshelf Symbol 7;
   font-size: 18px;
 }
 .list ul li a {
@@ -103,20 +103,23 @@ header nav .hero {
   color: white;
   text-align: center;
   padding: 2rem;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Bookshelf Symbol 7;
 }
 main .hero2 {
   padding: 4rem 2rem;
   display: flex;
   align-items: center;
   gap: 2rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Bookshelf Symbol 7;
 }
 main .hero2 .text {
   flex: 1;
 }
 main .hero2 .text1 p {
   margin-top: 1em;
+}
+main .hero2 .text1 h3{
+  font-size: 1.2em;
 }
 header nav .hero .button1 {
   background-color: #ff8600;
@@ -144,7 +147,7 @@ main .forms {
   padding: 2rem;
   background-color: #f8f8f8;
   border-radius: 10px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Bookshelf Symbol 7;
 }
 main .forms input,
 textarea {
@@ -174,7 +177,7 @@ main .last {
   background-color: #f8f8f8;
   padding: 2rem;
   margin: 2rem 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Bookshelf Symbol 7;
 }
 main h3{
   color: #ff8600;
