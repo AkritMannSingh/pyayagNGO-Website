@@ -68,7 +68,7 @@ header {
   border: 2px solid none;
   height: 90vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/Images/Slide/NGO 10.png");
+    url("/SVHH/PrayagNGO-Website/Images/Slide/NGO 10.png");
   background-position: center;
   background-size: cover;
 }
@@ -119,6 +119,7 @@ header .logo img {
   color: white;
   font-family: Bookshelf Symbol 7;
   font-size: 18px;
+  
 }
 .list ul li a {
   color: white;
@@ -208,6 +209,9 @@ nav .card {
   flex-wrap: wrap;
   cursor: pointer;
   transition: transform 0.3s;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 nav .card:hover {
   transform: scale(1.03);

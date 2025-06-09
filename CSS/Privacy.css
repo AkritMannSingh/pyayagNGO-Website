@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/PrayagNGO-Website/Images/Slide/homebg.jpeg");
+  background-position: center;
+  background-size: cover;
+  z-index: 10;
+}
 header {
   display: flex;
   border: 2px solid none;
@@ -33,7 +40,7 @@ header .logo img {
   font-weight: bold;
   font-style: italic;
   font-size: 1.7rem;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   flex-wrap: nowrap;
   text-decoration: none;
   letter-spacing: 3px;
@@ -57,12 +64,12 @@ header .logo img {
 }
 .list ul li {
   list-style: none;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-family: Bookshelf Symbol 7;
   font-size: 18px;
 }
 .list ul li a {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-style: normal;
   text-decoration: none;
 }
